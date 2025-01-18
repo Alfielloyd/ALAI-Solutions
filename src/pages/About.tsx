@@ -167,6 +167,8 @@ const About = () => {
     }
   ];
 
+  export default FaqSection;
+
   const faqs = [
     {
       question: "What makes your AI solutions different?",
@@ -476,7 +478,7 @@ const About = () => {
       </section>
 
       {/* FAQs Section */}
-      <section className="py-20 bg-white">
+      <section id="faqs" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <div className="text-center mb-16">
