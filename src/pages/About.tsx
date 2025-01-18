@@ -167,8 +167,6 @@ const About = () => {
     }
   ];
 
-  export default FaqSection;
-
   const faqs = [
     {
       question: "What makes your AI solutions different?",
@@ -286,7 +284,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold text-gray-900">Dogs dinner</h2>
+              <h2 className="text-3xl font-bold text-gray-900">Dogs</h2>
               <p className="mt-4 text-xl text-gray-600">
                 Pushing the boundaries of AI technology
               </p>
