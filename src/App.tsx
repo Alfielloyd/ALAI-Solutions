@@ -9,6 +9,7 @@ import Auth from './pages/Auth';
 import ProductPage from './pages/ProductPage';
 import ProductInfo from './pages/ProductInfo';
 import ProductWaitlist from './pages/ProductWaitlist';
+import ScrollToTop from './components/ScrollToTop';  // Import ScrollToTop component
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-grow">
+          <ScrollToTop />  {/* Add ScrollToTop here */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -33,3 +35,4 @@ function App() {
 }
 
 export default App;
+
