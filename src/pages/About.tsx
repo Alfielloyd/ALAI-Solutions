@@ -81,7 +81,7 @@ const About = () => {
     {
       year: "2022",
       title: "Research Breakthrough",
-      description: "Published groundbreaking research in neural networks",
+      description: "Published groundbreaking research in neural network understanding",
       icon: <BookOpen className="h-8 w-8 text-indigo-600" />
     },
     {
@@ -105,7 +105,7 @@ const About = () => {
     },
     {
       icon: <Network className="h-10 w-10 text-indigo-600" />,
-      title: "Computer Vision",
+      title: "Computer Vision Development",
       description: "Innovative approaches to visual recognition"
     },
     {
@@ -439,7 +439,7 @@ const About = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { icon: <Shield />, name: "ISO 27001", desc: "Information Security Management" },
+              { icon: <Shield />, name: "ISO 27001", desc: "Information Security" },
               { icon: <Lock />, name: "SOC 2 Type II", desc: "Security and Privacy Controls" },
               { icon: <Heart />, name: "HIPAA Compliant", desc: "Healthcare Data Protection" },
               { icon: <Shield />, name: "GDPR Compliant", desc: "Data Protection Standards" }
