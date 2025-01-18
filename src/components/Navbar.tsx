@@ -17,7 +17,6 @@ export default function Navbar() {
 </div>
 
 
-
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-gray-700 hover:text-indigo-600">Home</Link>
