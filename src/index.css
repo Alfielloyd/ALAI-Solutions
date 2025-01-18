@@ -201,7 +201,7 @@ main {
 
 /* Gradient text */
 .gradient-text {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600;
+  color: white;
 }
 
 /* Glass effect */

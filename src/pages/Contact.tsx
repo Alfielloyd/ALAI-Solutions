@@ -71,9 +71,9 @@ export default function Contact() {
     },
     {
       icon: <MapPin className="h-12 w-12 text-indigo-600" />,
-      title: "Visit Us",
+      title: "Headquarters",
       content: "45 Bank Street, London, England, E14 5LB",
-      description: "Schedule a consultation"
+      description: "",
     }
   ];
 
