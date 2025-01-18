@@ -6,16 +6,18 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div>
-            <div className="flex items-center">
-              <img src="public/ALAI Solutions Logo Main Footer.png" className="h-8 w-8 text-indigo-400" alt="ALAI Solutions Logo"/>
-              <span className="ml-2 text-xl font-bold">ALAI Solutions</span>
-            </div>
-            <p className="mt-4 text-gray-400">
-              Transforming businesses through intelligent AI solutions
-            </p>
-          </div>
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div>
+        <div className="flex items-center">
+          <img src="/ALAI Solutions Logo Main Footer.png" className="h-8 w-8 text-indigo-400" alt="ALAI Solutions Logo"/>
+          <span className="ml-2 text-xl font-bold">ALAI Solutions</span>
+        </div>
+        <p className="mt-4 text-gray-400">
+          Transforming businesses through intelligent AI solutions
+        </p>
+      </div>
+    </div>
+
           
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
