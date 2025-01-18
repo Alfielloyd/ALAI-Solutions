@@ -9,12 +9,13 @@ export default function Navbar() {
     <nav className="bg-white shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
-          <div className="flex">
-            <Link to="/" className="flex items-center">
-              <img src="src/public/ALAI Solutions Logo Main SVG.svg" className="h-8 w-8 text-indigo-600" />
-              <span className="ml-2 text-xl font-bold text-gray-900">ALAI Solutions</span>
-            </Link>
-          </div>
+        <div className="flex items-center">
+          <Link to="/" className="flex items-center">
+          <img src="/ALAI Solutions Logo Main SVG.svg" className="h-16 w-16 text-indigo-600" alt="ALAI Solutions Logo" />
+          <span className="ml-2 text-xl font-bold text-gray-900">ALAI Solutions</span>
+      </Link>
+</div>
+
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
