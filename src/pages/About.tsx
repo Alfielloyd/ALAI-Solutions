@@ -304,24 +304,6 @@ const About = () => {
               </ScrollReveal>
             ))}
           </div>
-
-          <div className="mt-16">
-            <ScrollReveal>
-              <div className="bg-white p-8 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold mb-6">Recent Publications</h3>
-                <div className="space-y-6">
-                  {publications.map((pub, index) => (
-                    <div key={index} className="border-l-4 border-indigo-600 pl-4">
-                      <h4 className="text-lg font-semibold">{pub.title}</h4>
-                      <p className="text-gray-600">{pub.journal}, {pub.year}</p>
-                      <p className="text-indigo-600">{pub.impact}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </ScrollReveal>
-          </div>
-        </div>
       </section>
 
       {/* Journey Timeline */}
