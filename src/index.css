@@ -7,6 +7,15 @@ html {
   scroll-behavior: smooth;
 }
 
+html, body {
+  height: 100%;
+  overflow-x: hidden; 
+}
+
+main {
+  min-height: 100%;
+}
+
 /* Base animations */
 @keyframes fadeIn {
   from { opacity: 0; }
