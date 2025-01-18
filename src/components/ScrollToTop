@@ -1,0 +1,14 @@
+import React from 'react';
+import { useLocation } from 'react-router-dom';
+
+function ScrollToTop() {
+  const location = useLocation();
+
+  React.useEffect(() => {
+    window.scrollTo(0, 0);  // Scroll to the top when the location changes
+  }, [location]);
+
+  return null;  // This component doesn't render anything
+}
+
+export default ScrollToTop;
