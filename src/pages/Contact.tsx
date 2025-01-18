@@ -66,14 +66,14 @@ export default function Contact() {
     {
       icon: <Phone className="h-12 w-12 text-indigo-600" />,
       title: "Call Us",
-      content: "+1 (555) 123-4567",
-      description: "Available Mon-Fri, 9AM-6PM EST"
+      content: "+44 79179 97658",
+      description: "Available Mon-Fri, 9AM-6PM GMT"
     },
     {
       icon: <MapPin className="h-12 w-12 text-indigo-600" />,
       title: "Visit Us",
-      content: "123 AI Street, Tech City",
-      description: "Schedule an on-site consultation"
+      content: "45 Bank Street, London, England, E14 5LB",
+      description: "Schedule a consultation"
     }
   ];
 
@@ -240,7 +240,7 @@ export default function Contact() {
                     Find quick answers to common questions about our AI solutions and services.
                   </p>
                   <a
-                    href="#"
+                    href="#faqs"
                     className="text-indigo-600 font-semibold hover:text-indigo-700 flex items-center"
                   >
                     View All FAQs
