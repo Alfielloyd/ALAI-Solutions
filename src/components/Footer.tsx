@@ -9,7 +9,8 @@ export default function Footer() {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
       <div>
         <div className="flex items-center">
-          <img src="/ALAI Solutions Logo Main Footer.png" className="h-8 w-8 text-indigo-400" alt="ALAI Solutions Logo"/>
+        <img src="/ALAI Solutions Logo Main Footer.png" className="h-12 w-12 text-indigo-400" alt="ALAI Solutions Logo"/>
+
           <span className="ml-2 text-xl font-bold">ALAI Solutions</span>
         </div>
         <p className="mt-4 text-gray-400">
