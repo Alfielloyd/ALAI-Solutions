@@ -13,7 +13,8 @@ export default function Footer() {
               <span className="ml-2 text-xl font-bold">ALAI Solutions</span>
             </div>
             <p className="mt-4 text-gray-400">
-              Transforming businesses through intelligent AI solutions
+            Empowering SMBs through innovation. 
+            We deliver AI-driven solutions to automate, optimise, and transform your business.
             </p>
           </div>
 
@@ -23,7 +24,7 @@ export default function Footer() {
               <li><Link to="/" className="text-gray-400 hover:text-white">Home</Link></li>
               <li><Link to="/about" className="text-gray-400 hover:text-white">About</Link></li>
               <li><Link to="/contact" className="text-gray-400 hover:text-white">Contact</Link></li>
-              <li><Link to="/product" className="text-gray-400 hover:text-white">Product</Link></li>
+              <li><Link to="/product" className="text-gray-400 hover:text-white">Products</Link></li>
             </ul>
           </div>
 
@@ -32,15 +33,15 @@ export default function Footer() {
             <ul className="space-y-2">
               <li className="flex items-center text-gray-400">
                 <Mail className="h-5 w-5 mr-2" />
-                info@aisolutions.com
+                contact@alaisolutions.com
               </li>
               <li className="flex items-center text-gray-400">
                 <Phone className="h-5 w-5 mr-2" />
-                +1 (555) 123-4567
+                +44 79179 97658
               </li>
               <li className="flex items-center text-gray-400">
                 <MapPin className="h-5 w-5 mr-2" />
-                123 AI Street, Tech City
+                45 Bank Street, London, England, E14 5LB
               </li>
             </ul>
           </div>
@@ -65,7 +66,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} AI Solutions. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} ALAI Solutions. All rights reserved.</p>
         </div>
       </div>
     </footer>
