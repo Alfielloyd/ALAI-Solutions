@@ -1,23 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Brain, Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-    <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-      <div>
-        <div className="flex items-center">
-          <img src="/ALAI Solutions Logo Main Footer.png" className="h-12 w-12 text-indigo-400" alt="ALAI Solutions Logo"/>
-          <span className="ml-2 text-xl font-bold">ALAI Solutions</span>
-        </div>
-        <p className="mt-4 text-gray-400">
-          Transforming businesses through intelligent AI solutions
-        </p>
-      </div>
-    </div>
-          
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div>
+            <div className="flex items-center">
+              <img src="/ALAI Solutions Logo Main Footer.png" className="h-12 w-12 text-indigo-400" alt="ALAI Solutions Logo" />
+              <span className="ml-2 text-xl font-bold">ALAI Solutions</span>
+            </div>
+            <p className="mt-4 text-gray-400">
+              Transforming businesses through intelligent AI solutions
+            </p>
+          </div>
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
@@ -27,7 +26,7 @@ export default function Footer() {
               <li><Link to="/product" className="text-gray-400 hover:text-white">Product</Link></li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
@@ -45,11 +44,11 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Newsletter</h3>
             <p className="text-gray-400 mb-4">Stay updated with our latest news</p>
-            <form className="flex">
+            <form className="flex" onSubmit={(e) => e.preventDefault()}>
               <input
                 type="email"
                 placeholder="Enter your email"
@@ -64,7 +63,7 @@ export default function Footer() {
             </form>
           </div>
         </div>
-        
+
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
           <p>&copy; {new Date().getFullYear()} AI Solutions. All rights reserved.</p>
         </div>
