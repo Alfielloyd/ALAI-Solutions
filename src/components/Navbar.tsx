@@ -22,7 +22,7 @@ export default function Navbar() {
             <Link to="/" className="text-gray-700 hover:text-indigo-600">Home</Link>
             <Link to="/about" className="text-gray-700 hover:text-indigo-600">About</Link>
             <Link to="/contact" className="text-gray-700 hover:text-indigo-600">Contact</Link>
-            <Link to="/product" className="text-gray-700 hover:text-indigo-600">Product</Link>
+            <Link to="/product" className="text-gray-700 hover:text-indigo-600">Products</Link>
             <Link to="/auth" className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700">
               Sign In
             </Link>
