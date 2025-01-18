@@ -11,7 +11,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex">
             <Link to="/" className="flex items-center">
-              <svg src="src/public/ALAI Solutions Logo Main SVG.svg" className="h-8 w-8 text-indigo-600" />
+              <img src="src/public/ALAI Solutions Logo Main SVG.svg" className="h-8 w-8 text-indigo-600" />
               <span className="ml-2 text-xl font-bold text-gray-900">ALAI Solutions</span>
             </Link>
           </div>
