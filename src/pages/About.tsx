@@ -284,7 +284,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <ScrollReveal>
             <div className="text-center mb-16">
-              <h2 className="text-3xl font-bold text-gray-900">Dogs</h2>
+              <h2 className="text-3xl font-bold text-gray-900">Research & Innovation</h2>
               <p className="mt-4 text-xl text-gray-600">
                 Pushing the boundaries of AI technology
               </p>
@@ -301,23 +301,6 @@ const About = () => {
                 </div>
               </ScrollReveal>
             ))}
-          </div>
-
-          <div className="mt-16">
-            <ScrollReveal>
-              <div className="bg-white p-8 rounded-lg shadow-lg">
-                <h3 className="text-2xl font-bold mb-6">Recent Publications</h3>
-                <div className="space-y-6">
-                  {publications.map((pub, index) => (
-                    <div key={index} className="border-l-4 border-indigo-600 pl-4">
-                      <h4 className="text-lg font-semibold">{pub.title}</h4>
-                      <p className="text-gray-600">{pub.journal}, {pub.year}</p>
-                      <p className="text-indigo-600">{pub.impact}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </ScrollReveal>
           </div>
         </div>
       </section>
