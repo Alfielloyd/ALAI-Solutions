@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center">
               <img src="public/ALAI Solutions Logo Main Footer.png" className="h-8 w-8 text-indigo-400" alt="ALAI Solutions Logo"/>
-              <span className="ml-2 text-xl font-bold">AI Solutions</span>
+              <span className="ml-2 text-xl font-bold">ALAI Solutions</span>
             </div>
             <p className="mt-4 text-gray-400">
               Transforming businesses through intelligent AI solutions
